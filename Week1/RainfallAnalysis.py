@@ -15,11 +15,13 @@ def rainfall_analysis():
 
     #Count of no rainy days
     count = np.where(rainfall == 0.0)
+    print(count)
     print(f"\nCount of no rainy days: {np.size(count)}")
 
     #High rainy days for the week
     print(f"\nHigh rainy days for the week:")
     high_rain = np.where(rainfall > 5.0)[0]
+    print(high_rain)
     for index in high_rain:
         print(f"Day {index+1} rainfall: {rainfall[index]}")
 
