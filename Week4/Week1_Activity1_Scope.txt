@@ -1,0 +1,12 @@
+Project Scope
+=============
+
+Yoobee College offers a range of courses for students. Each course consists of specific subjects, and lecturers are assigned to teach these subjects by the college.
+
+The proposed system will manage student records, courses, subjects and lecturer information. Each entity will include its own attributes.
+
+Entites :
+	Student : Student_ID, Student_Name, Contact_No, Student_Email, Course_ID
+	Course  : Course_ID, Course_Name, Course_Details
+	Subjects : Subject_ID, Subject_Name, Lecturer_ID, Course_ID
+	Lecturer : Lecturer_ID, Lecturer_Name, Lecturer_Email
